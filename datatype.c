@@ -11,7 +11,7 @@
  
 // ------->  1 
 
-
+/*
 
 #include <stdio.h>
 #include <limits.h>
@@ -28,11 +28,12 @@ int main()
    return 0;
 }
 
+*/
 
 
 //-----> 2
 
-
+/*
 #include <stdio.h>
 #include <limits.h>
 int main()
@@ -41,11 +42,11 @@ int main()
     printf("Storage size for char is: %d \n", sizeof(char));
     return 0; 
 }
-
+*/
 
 //-----> 3
 
-
+/*
 #include<stdio.h>
 int main() {
     int intType;
@@ -115,12 +116,12 @@ int main() {
    return 0;
 }
 
-
+*/
 
 //=============================================         Integer DATA Type Program         ================================================================
 
 
-
+/*
 
 
 //   1 Program 
@@ -179,6 +180,7 @@ int main() {
     return 0;
 }
 
+//  5 program
 
 #include <stdio.h>
 int main()
@@ -189,13 +191,14 @@ int main()
     printf("Number = %d",testInteger);
     return 0;
 }
+*/
 
 // /*====================================================================================================================== */
 
 
+/*
 
-
-//             using scanf function addtion program -->
+//      6       using scanf function addtion program -->
 
 
 
@@ -215,7 +218,7 @@ int main() {
 }
 
 
-// ========================================================================================================
+//  7 program                                  ========================================================================================================
 
 #include<stdio.h>    
 int main(){    
@@ -236,7 +239,7 @@ return 0;
 // //========================================================================================================
 
 
-//  int Variable Declaration and Variable Initialization in addition program :-
+//  8     int Variable Declaration and Variable Initialization in addition program :-
 
 #include <stdio.h>
   void main() {
@@ -249,7 +252,7 @@ return 0;
 
 
 
-// Program to cube root  integer numbers using scanf function program
+//   9   Program to cube root  integer numbers using scanf function program
 
 #include<stdio.h>    
 int main(){    
@@ -261,7 +264,7 @@ return 0;
 }
 
 
-// ----  suqre root program 
+//  10    ----  suqre root program 
 
 #include<stdio.h>    
 int main(){    
@@ -273,11 +276,11 @@ return 0;
 }
 
 
-// //=============================================================================================================================================
+//=============================================================================================================================================
 
 
 
-//  C program for the above approach
+//  11    C program for the above approach
 
 
 #include <math.h>
@@ -299,14 +302,11 @@ int main()
 }
 
 
-
-
-
-
-// /*
+// 
 //  * C program to find square root of a number   
 //  * Example: C sqrt() Function
-//  */
+//   12   
+
 
 
 #include <stdio.h>
@@ -317,20 +317,22 @@ int main()
     double num, root;
 
     /* Input a number from user */
-    printf("Enter any number to find square root: ");
-    scanf("%lf", &num);
+  //  printf("Enter any number to find square root: ");
+  //  scanf("%lf", &num);
 
     /* Calculate square root of num */
-    root = sqrt(num);
+   // root = sqrt(num);
 
     /* Print the resultant value */
-    printf("Square root of %.2lf = %.2lf", num, root);
+  //  printf("Square root of %.2lf = %.2lf", num, root);
 
-    return 0;
-}
+  //  return 0;
+//}
 
 
-//  Program to find square root of any number
+
+/*
+// 13   Program to find square root of any number
 
 
 #include <math.h>
@@ -355,7 +357,7 @@ int main() {
 // /* User defined function sum that has two int
 //  * parameters. The function adds these numbers and
 //  * return the result of addition.
-//  *   */
+//  *  14     
 
 
 #include <stdio.h>                                                       
@@ -375,5 +377,74 @@ int main()
    printf("Sum of the entered numbers: %d", num3);
    return 0;
 }
+*/
 
+
+
+//---------------------------  THE Floting point data type program  ---------------------------------------------------------
+
+
+// 1. The floting point two line program
+
+/*
+#include<stdio.h>
+  
+void main() {
+    float pi;
+    pi = 3.14;
+    printf("%f\n",pi);
+ } 
+*/
+
+
+// 2. The floting point one line program
+
+/*
+ #include<stdio.h> 
+ void main() {
+    float pi = 3.14;
+    printf("%f\n",pi);
+ } 
+
+ */
+
+
+
+/*
+
+#include<stdio.h>
+  
+void main()
+ {
+// this is declaration and initialization of variable a
+	  // datatype is float
+	  float a = 234.5 ;
+	  // this is declaration and initialization of variable b
+	  // datatype is float
+      float b = 234.565 ;
+      printf("%f \n",a); // it will print a variable
+      printf("%f \n",b); // it will print b variable
+ } 
+
+
+*/
+
+//  C Program to Multiply Two Floating-Point Numbers
+
+
+
+#include <stdio.h>
+int main() {
+    double a, b, product;
+    printf("Enter two numbers: ");
+    scanf("%lf %lf", &a, &b);  
+ 
+    // Calculating product
+    product = a * b;
+
+    // Result up to 2 decimal point is displayed using %.2lf
+    printf("Product = %.2lf", product);
+    
+    return 0;
+}
 
