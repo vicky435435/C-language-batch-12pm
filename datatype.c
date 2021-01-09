@@ -410,12 +410,11 @@ void main() {
 
 
 
-/*
+/*  3. The floting point program 
 
 #include<stdio.h>
   
-void main()
- {
+void main(){
 // this is declaration and initialization of variable a
 	  // datatype is float
 	  float a = 234.5 ;
@@ -429,10 +428,10 @@ void main()
 
 */
 
-//  C Program to Multiply Two Floating-Point Numbers
+//   4 .   C Program to Multiply Two Floating-Point Numbers
 
 
-
+/*
 #include <stdio.h>
 int main() {
     double a, b, product;
@@ -443,8 +442,63 @@ int main() {
     product = a * b;
 
     // Result up to 2 decimal point is displayed using %.2lf
-    printf("Product = %.2lf", product);
+    printf("Product = %.3lf", product);
     
+    return 0;
+}
+
+*/
+
+
+//Example 5: Program to display the product of two float numbers
+//Program to multiply two floating point numbers and display the product as output.
+/*
+
+#include <stdio.h>
+int main(){
+   float num1, num2, product;
+   printf("Enter first Number: ");
+   scanf("%f", &num1);
+   printf("Enter second Number: ");
+   scanf("%f", &num2);
+
+   //Multiply num1 and num2
+   product = num1 * num2;
+
+   // Displaying result up to 3 decimal places. 
+   printf("Product of entered numbers is:%.3f", product);
+   return 0;
+}
+*/
+
+
+
+//Example 6: Program to multiply two numbers using function
+//In this program we are creating a user defined function product() that multiplies the numbers that we are passing to it during function call. This function returns the product of these numbers. To understand this program you should have the knowledge of following C Programming concepts:
+
+
+#include <stdio.h>
+/* Creating a user defined function product that
+ * multiplies the numbers that are passed as an argument
+ * to this function. It returns the product of these numbers
+ */
+float product(float a, float b){
+    return a*b;
+}
+int main()
+{
+    float num1, num2, prod;
+    printf("Enter first Number: ");
+    scanf("%f", &num1);
+    printf("Enter second Number: ");
+    scanf("%f", &num2);
+
+    // Calling product function
+    prod  = product(num1, num2);
+
+    // Displaying result up to 3 decimal places.
+    printf("Product of entered numbers is:%.3f", prod);
+
     return 0;
 }
 
