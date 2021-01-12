@@ -477,11 +477,13 @@ int main(){
 //In this program we are creating a user defined function product() that multiplies the numbers that we are passing to it during function call. This function returns the product of these numbers. To understand this program you should have the knowledge of following C Programming concepts:
 
 
-#include <stdio.h>
+//#include <stdio.h>
 /* Creating a user defined function product that
  * multiplies the numbers that are passed as an argument
  * to this function. It returns the product of these numbers
  */
+
+/*
 float product(float a, float b){
     return a*b;
 }
@@ -502,3 +504,44 @@ int main()
     return 0;
 }
 
+*/
+
+
+//---------------------------->  Char Data type  -----------------------------------
+
+
+// 1. char Variable Declaration and Variable Initialization  Program :
+
+/*
+#include <stdio.h>
+void main() {
+
+   char flag; 
+   flag = 'a' ;
+   printf("%c \n",flag); 
+ }
+
+
+// 2. char Variable Declaration and Initialization in single step Program:
+
+#include <stdio.h>  
+void main() {
+	
+    char flag = 'a' ; 
+    printf("  %c \n",flag); 
+ }
+
+
+// 3. A program that demonstrates char variable Program:-
+
+#include  <stdio.h>
+void main() {
+    char character1, character2;
+ 	character1 = 82; // code for R
+    character2 = 'S';
+    printf("character1 and character2: \n"); 
+    printf("%c \n",character1);
+	printf("%c \n",character2); 
+ } 
+
+*/
