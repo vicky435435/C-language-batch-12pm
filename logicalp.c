@@ -116,22 +116,41 @@ printf("%d + %d =%d", 1,2,3);
 //     return 0;
 // }
 
-#include<stdio.h>
-int main()
-{
-    printf("The Code Programmer \n");
-    printf("Kahona" "Pyaar" "hain");
-    return 0;
-}
+// #include<stdio.h>
+// int main()
+// {
+//     printf("The Code Programmer \n");
+//     printf("Kahona" "Pyaar" "hain");
+//     return 0;
+// }
 
 
+    // #include <stdio.h>
+    // int main()
+    // {
+    //     printf("C programming %s", "Presented by\n%s the code");
+    // }
 
 
+    // #include<stdio.h>
+    // void main()
+    // {
 
+    // printf("The Code programmer \n");   
+    // printf("Rambo \n");
+    // printf("\"Rambo\" \n");
+    // printf("\\Rambo\\ \n");
+    // printf("50%% \n"); 
+    // }
 
-
-
-
+   
+  #include <stdio.h>
+   // #define a 10
+    int main()
+    {
+        const int a = 5;
+        printf("a = %d\n", a);
+    }
 
 
 
